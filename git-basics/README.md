@@ -7,6 +7,7 @@
 	```
 
 ### Configuration
+* Cofigure username and email to track the author	
 	```
 	git config --global user.name "Harsha Dannina"
 	git config --global user.email "harshadannina27@gmail.com"
