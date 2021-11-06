@@ -106,7 +106,10 @@
 	```
 	git push origin sandpit
 	```
-	
+* Pull from sandpit branch
+	```
+	git pull origin sandpit
+	```
 ### Merging sandpit with main branch
 * Switch to main branch
 	```
