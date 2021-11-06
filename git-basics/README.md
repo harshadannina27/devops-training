@@ -1,31 +1,31 @@
 ## Getting Started
 
 ### Installation
-*Git
-	```sh
+* Git
+	```
 	sudo apt install git
 	```
 
 ### Configuration
-	```sh
+	```
 	git config --global user.name "Harsha Dannina"
 	git config --global user.email "harshadannina27@gmail.com"
 	git config --list
 	```
 
 ### Working on Local Git repository
-*Create folder
-	```sh
+* Create folder
+	```
 	mkdir git_training_vi
 	cd git_training_v1
 	```
 
-*Inintalise .git repository
-	```sh
+* Inintalise .git repository
+	```
 	git init
 	```
-*Basic git operations
-	```sh
+* Basic git operations
+	```
 	touch first_file.txt
 	git status
 	git add .
