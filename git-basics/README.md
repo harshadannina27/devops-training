@@ -14,13 +14,12 @@
 	git config --list
 	```
 
-### Working on Local Git repository
+### Working on local Git repository
 * Create folder
 	```
 	mkdir git_training_vi
 	cd git_training_v1
 	```
-
 * Inintalise .git repository
 	```
 	git init
@@ -45,7 +44,6 @@
 	git clone -b main https://github.com/username/devops-training.git
 	cd devops-training
 	```
-
 * To pull the code from GitHub
 	```
 	git pull
