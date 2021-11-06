@@ -83,6 +83,7 @@
 
 ## Branching
 
+### Creating sandpit branch
 * Status of branch
 	```
 	git branch
@@ -105,4 +106,18 @@
 	```
 	git push origin sandpit
 	```
-
+### Merging sandpit to main branch
+* Switch to main branch
+	```
+	git switch main
+	```
+* Merge sandpit into main branch
+	```
+	git merge sandpit
+	```
+* Push changes to GitHub
+	```
+	git add .
+	git commit
+	git push
+	```
