@@ -106,7 +106,8 @@
 	```
 	git push origin sandpit
 	```
-### Merging sandpit to main branch
+	
+### Merging sandpit with main branch
 * Switch to main branch
 	```
 	git switch main
@@ -120,4 +121,20 @@
 	git add .
 	git commit
 	git push
+	```
+	
+### Merging main with sandpit branch
+* Switch to sandpit branch
+	```
+	git switch sandpit
+	```
+* Merge sandpit into main branch
+	```
+	git merge main
+	```
+* Push changes to GitHub
+	```
+	git add .
+	git commit
+	git push origin sandpit
 	```
