@@ -1,4 +1,4 @@
-## Getting Started with git
+## Getting Started 
 
 ### Installation
 * Git
@@ -36,7 +36,7 @@
 	git log --author="harshadannina27@gmail.com"
 	```
 
-## Setting up GitHub 
+## GitHub Setup
 
 ### Create GitHub account
 * Sign-in to your github account and create a public repository eg: devops-training
@@ -79,4 +79,30 @@
 	git commit -a -m "Added testfile.txt"
 	git push
 	```
-* It will ask credentials for first time. Give GitHub username and in password, give generated PAT token from the above step. 
+* It will ask credentials for first time. Give GitHub username and in password, give generated PAT token from the above step.
+
+## Branching
+
+* Status of branch
+	```
+	git branch
+	```
+* Create new branch sandpit
+	```
+	git branch sandpit
+	```
+* Change current branch to sandpit
+	```
+	git switch sandpit
+	```
+* Add changes in sandpit
+	```
+	touch sandpit_file.txt
+	git add .
+	git commit -am "File added in sandpit"
+	```
+* Push file to sandpit branch
+	```
+	git push origin sandpit
+	```
+
