@@ -20,7 +20,7 @@
 	mkdir git_training_vi
 	cd git_training_v1
 	```
-* Inintalise .git repository
+* Inintalize .git repository
 	```
 	git init
 	```
@@ -65,7 +65,7 @@
 	ssh -T git@github.com
 	```
 	Hi Username! You've successfully authenticated, but Github doesnot provide shell access.
-5. If you clone the repo using HTTPS method, git push will prompet username and password everytime. So change it to SSH
+5. If you clone the repo using HTTPS method, git push will prompt username and password everytime. So change it to SSH
 	```
 	git remote set-url origin git@github.com:username/repo-name.git
 	```
