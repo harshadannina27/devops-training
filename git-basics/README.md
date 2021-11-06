@@ -39,7 +39,7 @@
 ## Setting up GitHub 
 
 ### Create GitHub account
-* Sign-in to your github account and create a public repository
+* Sign-in to your github account and create a public repository eg: devops-training
 	```
 	git clone -b main https://github.com/username/devops-training.git
 	cd devops-training
