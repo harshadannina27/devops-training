@@ -60,7 +60,8 @@
 	```
 	cat ~/.ssh/id_ed25519.pub
 	```
-3. Copy the terminal output and paste in GitHub >  Settings > SSH and GPG keys > New SSH key
+3. Copy the terminal output and paste in 
+	* GitHub >  Settings > SSH and GPG keys > New SSH key
 4. Test SSH connection
 	```
 	ssh -T git@github.com
@@ -71,7 +72,7 @@
 	git remote set-url origin git@github.com:username/repo-name.git
 	```
 6. Generate Personal Access Token(PAT)
-	Navigate to GitHub > Settings > Developer settings > Personal access tokens > Generate new token > Fill the form > Generate token 
+	* GitHub > Settings > Developer settings > Personal access tokens > Generate new token > Fill the form > Generate token 
 
 ### Pushing code to GitHub
 * Push code from local git to GitHub
