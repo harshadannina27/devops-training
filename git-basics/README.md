@@ -131,7 +131,7 @@
 	```
 	git switch sandpit
 	```
-* Merge sandpit into main branch
+* Merge main into sandpit branch
 	```
 	git merge main
 	```
