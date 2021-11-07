@@ -141,3 +141,27 @@
 	git commit
 	git push origin sandpit
 	```
+
+## Reset and Revert
+* To review the logs and get commit ID
+	```
+	git log --oneline
+	```
+### Reset
+* If the changes are local, and need to reset the last commit excluding the file changes
+	```
+	git reset --soft <commitID>
+	git status
+	```
+
+* If changes are local, and need to reset the last commit including the file changes
+	```
+	git reset --hard <commitID>
+	```
+
+### Revert
+* If the changes are pushed to GitHub repo, and needs to revert back to previous commit
+	```
+	git revert HEAD
+	```
+
