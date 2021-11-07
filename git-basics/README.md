@@ -110,6 +110,11 @@
 	```
 	git pull origin sandpit
 	```
+* Difference between two branches
+	```
+	git diff main sandpit
+	```
+
 ### Merging sandpit with main branch
 * Switch to main branch
 	```
